@@ -25,7 +25,10 @@ export default function Home() {
         <CardHeader>
           <CardTitle>Cathegorie</CardTitle>
           <CardContent>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p>
+              Choisissez une catégorie pour commencer à explorer les différents
+              types de résolutions.
+            </p>
           </CardContent>
         </CardHeader>
         <CardContent>

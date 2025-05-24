@@ -14,7 +14,13 @@ export default function IconCategorie({
       <HoverCard>
         <HoverCardTrigger asChild>
           <Button variant="outline">
-            <Image src={icon} alt="icon de categorie" width={14} height={14} />
+            <Image
+              src={icon}
+              alt="icon de categorie"
+              width={14}
+              height={14}
+              className="dark:brightness-0 dark:invert"
+            />
           </Button>
         </HoverCardTrigger>
         <HoverCardContent>
