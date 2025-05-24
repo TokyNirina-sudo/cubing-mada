@@ -62,7 +62,7 @@ export default function RootLayout({
               </div>
             </header>
 
-            <main className="pt-16 px-4 w-full">{children}</main>
+            <main className="pt-16  w-full">{children}</main>
           </SidebarProvider>
         </ThemeProvider>
       </body>
